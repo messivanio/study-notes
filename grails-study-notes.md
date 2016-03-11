@@ -16,16 +16,15 @@ Obs: Version 3.1.3 [has a bug](http://stackoverflow.com/a/35929230/771578).
 
 
 ## Create an app
-
+  
     grails create-app APP_NAME
-
     grails create-app APP_NAME --profile=angular
+    grails test-app
+    grails run-app
 
+Don't show port conflict errors.
 
-[.gitignore for grails](https://www.gitignore.io/api/grails) or:
-
-    grails integrate-with --git
-
+[.gitignore for grails](https://www.gitignore.io/api/grails) and add '.asscache' to gitignore
   
 https://grails.org
 
@@ -44,9 +43,6 @@ https://grails.org
 
 localhost:8080/APP_NAME/dbdoc
 
-    grails integrate-with --eclipse
-    grails integrate-with --itellij
-    
 
 ## Domain Classes and GORM
 
