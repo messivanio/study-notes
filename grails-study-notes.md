@@ -24,7 +24,7 @@ Obs: Version 3.1.3 [has a bug](http://stackoverflow.com/a/35929230/771578).
 
 Don't show port conflict errors.
 
-[.gitignore for grails](https://www.gitignore.io/api/grails) and add '.asscache' to gitignore
+[.gitignore for grails, gradle, bower and java](https://www.gitignore.io/api/gradle%2Cgrails%2Cbower%2Cjava) and add '.asscache' to gitignore
   
 https://grails.org
 
