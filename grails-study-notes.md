@@ -59,6 +59,11 @@ localhost:8080/APP_NAME/dbdoc
 
     MyObject.list(offset: 2, max: 50)
 
+### Migration Plugins
+
+[Database Migration Plugin](http://grails-plugins.github.io/grails-database-migration/docs/manual/index.html)
+[LiquiBase Database Refactoring for Grails](https://grails.org/plugin/liquibase)
+
 
 ## Controllers and Server Pages
 
