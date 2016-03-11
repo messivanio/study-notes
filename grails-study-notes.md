@@ -53,7 +53,7 @@ localhost:8080/APP_NAME/dbdoc
 ????
 
 - Transaction Write-Behinds (Flush)
-- Cascasde behavior on associations with "belongsTo"
+- Cascade behavior on associations with "belongsTo"
 - Lazy Fetched is default
 
 
