@@ -193,5 +193,6 @@ Enable "Unlimited Encryption" (on JDK/JRE)
 ## Links
 
 [Introduction to Grails
+[Introdução a Grails: Um framework veloz e poderoso](http://www.slideshare.net/bruno_lopes/introduo-a-grails-um-framework-veloz-e-poderoso-40312254)
 by Dan Bunker | Pluralsight](https://app.pluralsight.com/library/courses/grails-introduction/table-of-contents)
 
