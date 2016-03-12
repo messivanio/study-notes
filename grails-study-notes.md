@@ -22,9 +22,13 @@ Obs: Version 3.1.3 [has a bug](http://stackoverflow.com/a/35929230/771578).
     grails test-app
     grails run-app
 
+Tip: Use `grails` command, then use the commands inside grails shell(?)
+
 Don't show port conflict errors.
 
 [.gitignore for grails, gradle, bower and java](https://www.gitignore.io/api/gradle%2Cgrails%2Cbower%2Cjava) and add '.asscache' to gitignore
+
+`./grails-app/init/BootStrap.groovy` 
   
 https://grails.org
 
@@ -34,6 +38,13 @@ https://grails.org
 ??????? Error The Grails shell must be run from Gradle using 'gradle shell -q'
 
 **Change dbCreate in application.yml to ''**
+
+## Generators
+
+    grails create-domain-class mypackage.MyDomainClass
+    grails create-controller mypackage.MyDomainClass
+    grails generate-all mypackage.MyDomainClass # Create Views for Domain Class
+    grails create-service mypackage.MyDomainClass
 
 ## Database Migrations
 
