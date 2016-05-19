@@ -51,3 +51,26 @@ Experiment
 - Practice downstrokes in all six strings 
 - Rest the right hand palm close to the bridge 
 - Train with a metronome: 70 bpm - Down, Up, Alternate [each string] 
+
+
+Lesson 03 - Learn The Major Scale On Guitar
+-------------------------------------------
+
+#### Fingers
+ 
+ 111 1
+22  22
+  33  
+444444
+
+#### Scale
+
+ 362 7
+14  51
+  73  
+251462
+
+### Practice
+
+...
+
