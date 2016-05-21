@@ -58,17 +58,17 @@ Lesson 03 - Learn The Major Scale On Guitar
 
 #### Fingers
  
- 111 1
-22  22
-  33  
-444444
+     111 1
+    22  22
+      33  
+    444444
 
 #### Scale
 
- 362 7
-14  51
-  73  
-251462
+     362 7
+    14  51
+      73  
+    251462
 
 ### Practice
 
