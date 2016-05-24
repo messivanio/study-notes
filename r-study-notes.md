@@ -2,6 +2,7 @@ R Study Notes
 =============
 
 ```R
+
     5 ^ 14 # Exponentiation
     5 %% 3 # Modulo
 
@@ -11,6 +12,12 @@ R Study Notes
     my_characters <- "abc"
 
     class(my_numeric) # Returns "numeric"
+
+```
+
+## Vectors
+
+```R
 
     # Vectors ... c()
     numeric_vector <- c(44, 20, 12)
@@ -43,6 +50,34 @@ R Study Notes
     numeric_vector == 20  # returns FALSE TRUE FALSE
     numeric_vector != 20  # returns TRUE FALSE TRUE
     numeric_vector[numeric_vector != 20]  # returns 44 12
+
+```
+
+## Matrices
+
+```R
+
+    my_matrix <- matrix(1:7, byrow=TRUE, nrow=3)
+    # byrow = TRUE -> filled by rows
+    # byrow = FALSE -> filled by columns
+
+    colnames(my_matrix) <- col_names_vector
+    rownames(my_matrix) <- row_names_vector
+
+    rowSums(my_matrix)
+    colSums(my_matrix)
+
+    cbind(a_matrix, another_matrix, a_vector)  #  merges matrices and/or vectors together by column
+    rbind(a_matrix, another_matrix, a_vector)  #  merges matrices and/or vectors together by row
+
+    a_matrix[1,2]
+    a_matrix[1:3,2:3]
+    a_matrix[3,] # Row 3 / all columns
+    a_matrix[,2] # Column 2 / all rows
+
+    a_matrix * 8  # element-wise multiplication
+    a_matrix * another_matrix  # non-traditional matrix multiplication
+
 ```
 
 # References
