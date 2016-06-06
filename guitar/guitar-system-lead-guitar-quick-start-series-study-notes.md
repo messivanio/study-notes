@@ -4,6 +4,8 @@ Guitar System Study Notes | Lead Guitar Quick-Start Series | Nate Savage
 
 http://www.guitarsystem.com/lead-guitar
 
+[Blank Guitar TAB Sheets](http://guitarlessons-com.s3.amazonaws.com/media/guitar-lessons-2/tab.pdf) from [Blank Guitar Sheets](http://www.guitarlessons.com/guitar-lessons/guitar-theory-ear-training-and-reading/blank-guitar-sheets/)
+
 
 Lesson 01 - Learn How To Play Lead Guitar 
 ----------------------------------------- 
