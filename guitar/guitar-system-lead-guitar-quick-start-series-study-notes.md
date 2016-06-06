@@ -74,5 +74,27 @@ Lesson 03 - Learn The Major Scale On Guitar
 
 ### Practice
 
-...
+Lesson 04 - The Major Pentatonic Guitar Scale
+---------------------------------------------
 
+#### Fingers
+ 
+     111 
+    2   22
+       3  
+    444 44
+
+#### Scale
+
+     362  
+    1   51
+       3  
+    251 62
+
+### Tip
+
+Mute other strings. :)
+
+### Practice
+
+...
