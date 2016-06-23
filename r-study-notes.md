@@ -80,6 +80,23 @@ R Study Notes
 
 ```
 
+## Factors
+
+Categorical Variables
+
+```R
+
+    color_vector <- c("Red", "Blue", "Blue", "Green", "Red")
+    factor_color_vector <- factor(color_vector)
+    
+    factor_temperature_vector <- factor(temperature_vector, order = TRUE, levels = c("Low", "Medium", "High"))
+    # same as
+    levels(factor_temperature_vector) <- c("Low", "Medium", "High")
+
+```
+
+
+
 # References
 
 [Introduction to R - Jonathan Cornelissen - DataCamp](https://www.datacamp.com/courses/free-introduction-to-r)
