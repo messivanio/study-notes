@@ -17,6 +17,8 @@ R Study Notes
 
 ## Vectors
 
+One dimensional array
+
 ```R
 
     # Vectors ... c()
@@ -55,7 +57,7 @@ R Study Notes
 
 ## Matrices
 
-Rows x Columns (same type)
+Two dimensional array
 
 ```R
 
@@ -99,7 +101,7 @@ Categorical Variables
 
 ## Data Frames
 
-Rows x Columns (different type)
+Two-dimensional objects
 
 ```R
 
@@ -134,6 +136,27 @@ Rows x Columns (different type)
 
 ```
 
+## Lists
+
+Complex objects
+
+```R
+    my_list <- list(the_vector, a_matrix, my_dataset)
+    name(my_list) <- c("first_vector", "second_matrix", "third_dataset")
+
+    # same as
+    
+    my_list <- list(first_vector = the_vector, 
+                    second_matrix = a_matrix,
+                    third_dataset = my_dataset)
+
+    my_list[[2]]
+    my_list[["second_matrix"]]
+    my_list$second_matrix
+
+    my_list_with_one_more_element <- list(my_list, another_numeric_element = 645)
+    
+```
 
 # References
 
