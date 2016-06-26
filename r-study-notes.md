@@ -55,6 +55,8 @@ R Study Notes
 
 ## Matrices
 
+Rows x Columns (same type)
+
 ```R
 
     my_matrix <- matrix(1:7, byrow=TRUE, nrow=3)
@@ -95,6 +97,42 @@ Categorical Variables
 
 ```
 
+## Data Frames
+
+Rows x Columns (different type)
+
+```R
+
+    head(my_dataset)  # First Observations (Rows)
+    tail(my_dataset)  # Last Observations (Rows)
+    str(my_dataset)   # Dataset Structure
+
+    first_column <- c('a', 'abc', 'def')
+    second_column <- c(1, 56, 36)
+    my_dataset <- data.frame(first_column, second_column)
+
+    my_dataset[1, 2] # First Row, Second Column
+    my_dataset[1,] # All column of first row
+    my_dataset[, 2] # All rows of second column
+
+    my_dataset[1:5, 2]  # Fisrt five elements of second column
+    my_dataset[1:5, "name"]  # First five elements of 'name' column
+    my_dataset[, "name"]  # All elements of 'name' column
+    my_dataset$name       # All elements of 'name' column
+
+    booleans_to_subset <- c(FALSE, TRUE, TRUE)
+    subset(my_dataset, subset = booleans_to_subset)
+
+    subset(my_dataset, subset = second_column > 1)
+
+    a_vector <- c(4, 2, 10)
+    order(a_vector)  # 2, 1, 3 (index)
+    a_vector[order(a_vector)]  # 2, 4, 10
+
+    positions <- order[my_dataset$second_column]
+    my_dataset[positions,] # Order by second column
+
+```
 
 
 # References
